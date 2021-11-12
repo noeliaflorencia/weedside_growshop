@@ -1,0 +1,238 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&family=Roboto:wght@300&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  
+  
+}
+
+html {
+    font-size: 62.5%;
+    /* cambia la base de 16px a 10px */
+    
+    
+}
+
+body {
+ 
+   
+    font-family:'Montserrat', sans-serif;
+    cursor: auto;
+    margin:0;
+    color:#202614;
+    
+  }
+
+  header {
+    height: 100vh;
+    background: url("../img/logo-SIN-fondo21.png");
+    background-size: 100% 100%;
+  }
+
+p {
+    margin:0;
+}
+
+a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: 500;;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+nav ul {
+    display: flex;
+    
+}
+
+nav ul li {
+    padding:2rem;
+    padding-right: 10rem;
+    
+}
+
+.header__top-banner {
+    color:#ffffff;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: right;
+}
+
+
+.header__top-banner p i {
+
+    font-size: 1.4rem;
+
+
+}
+
+.header__banner {
+    
+    
+}
+
+.banner__img img {
+    height: 85vh;
+    margin:1rem;
+}
+
+.banner__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__text img {
+    width: 100%;
+}
+
+.banner__text p {
+    background-color:#202614;
+    padding:1.6rem;
+    color:#ffffff;
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+.banner__text h1 {
+    font-size: 6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: .7rem;
+}
+
+.titulo-cat {
+    text-transform: uppercase;
+    color:#ffffff;
+    text-align: center;
+    margin:3rem;
+}
+
+.top-ventas {
+    background-color:#FBA1A1;
+    margin: -1px;
+}
+
+.top-ventas__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#ffffff;
+    font-size: 1.6rem;
+    margin:1rem;
+}
+
+.top-ventas__item img {
+    width: 31rem;
+    border-radius: 50%;
+    margin:1rem;
+}
+
+.top-ventas__item span {
+    font-weight: 500;
+}
+
+.top-ventas__item p {
+    font-weight: 300;
+}
+
+
+
+.categorias {
+    background-color:#FBA1A1;
+    padding-bottom:3rem;
+}
+
+.categorias__item {
+    margin-bottom: 1rem;
+    
+}
+
+.categorias__item img {
+    width: 100%;
+    
+}
+
+.categorias__item h3 {
+    display: block;
+    text-transform: uppercase;
+    color:#ffffff;
+    text-align: center;
+    padding:1rem;
+    background-color: #202614;
+    
+    
+}
+
+.donde {
+    background:url("../img/fondo.png");
+    background-size: 100% 100%;
+    margin-bottom: 3rem;
+   
+}
+
+
+
+.donde__texto {
+    text-align: center;
+    
+}
+
+.donde__texto span {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.donde__texto p {
+    font-size: 1.4rem;
+    
+}
+
+.donde__texto i {
+    font-size: 6rem;
+    padding:2rem;
+    
+}
+
+.transporte {
+    display:flex;
+    flex-direction: column;
+}
+
+.footer__nav {
+    color:#fff;
+    
+}
+
+.footer__nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#FBA1A1;
+    margin:0;
+}
+
+.footer__nav ul li {
+    padding:1rem;
+}
+
+.copy {
+    background-color: #202614;
+    color:#ffffff;
+    padding:1rem;
+    font-size: 1.2rem;
+}
+
+.copy img {
+    width:9.4rem;
+    padding:1rem;
+}

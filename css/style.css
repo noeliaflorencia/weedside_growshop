@@ -130,10 +130,11 @@ nav ul li {
     color:#ffffff;
     font-size: 1.6rem;
     margin:1rem;
+    text-align: center;
 }
 
 .top-ventas__item img {
-    width: 31rem;
+    width: 100%;
     border-radius: 50%;
     margin:1rem;
 }
